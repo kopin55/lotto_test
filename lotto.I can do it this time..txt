@@ -1,0 +1,8 @@
+import random
+
+print("이번엔 될거야")
+a = int(input())
+
+for i in range(a):
+    lotto = [random.randint(1,45) for r in range(6)]
+    print(lotto)
